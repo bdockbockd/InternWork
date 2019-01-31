@@ -33,12 +33,12 @@ def changeString2(word, indexCorrect) :
     changeString2(word,indexCorrect)
         
 def startGame():
-    os.system('cls')
+    os.system('clear')
     global numberOfShow
     print("          H-A-N-G-M-A-N G-A-M-E")
     print("YOU HAVE 5 LIVES, MISS THEM ALL YOU'll DIE")
     print("             First Step !!\n(press E to choose Easy and H for Hard)")
-    choice = input("CHOOSE TYPE TO START : ")
+    choice = raw_input("CHOOSE TYPE TO START : ")
     isChosen = False
     while(not isChosen) :
         if choice.lower() == "E".lower() :
@@ -54,7 +54,7 @@ def startGame():
 
         else :
             print("NO PATH YOU'VE CHOSEN")
-            choice = input("\nCHOOSING AGAIN : ")
+            choice = raw_input("\nCHOOSING AGAIN : ")
         
 
     global LIST_WORD
@@ -75,11 +75,11 @@ def LoopGame():
     lengthOfWord = len(chosenWord)
     print("....Guess word....")
     print("WORD : {0}, hint : Animal , WRONG_GUESS : {1}".format(" ".join(chosenWord), WRONG_GUESS))
-    guess = input("GUESS : ")
+    guess = raw_input("GUESS : ")
     while(True) :
         if(len(guess) != 1):
             print("WRONG TYPE >> ASSIGN ONE CHARACTER")
-            guess = input("GUESS : ".format(life))
+            guess = raw_input("GUESS : ".format(life))
             if(len(guess)!=1): continue
         indexMatched = currentWord.find(guess)
         if( indexMatched != -1):
@@ -92,11 +92,11 @@ def LoopGame():
                 SCORE += 5
                 LIST_WORD.remove(currentWord)
                 PASS_WORD.append(currentWord)
-                input("-------enter to play next Word--------")
-                os.system('cls')
+                raw_input("-------enter to play next Word--------")
+                os.system('clear')
                 LoopGame()
                 break
-            guess = input("RIGHT, GUESS : ")
+            guess = raw_input("RIGHT, GUESS : ")
 
         else:
             life -= 1
@@ -107,7 +107,7 @@ def LoopGame():
             print("WRONG LOSE ONE LIFE , LIFE LEFT : {0}".format(life))
             WRONG_GUESS.add(guess)
             print("WORD : {0}, hint : Animal , WRONG_GUESS : {1}".format(" ".join(list(chosenWord)), WRONG_GUESS))
-            guess = input("Hang in there, GUESS AGAIN :")
+            guess = raw_input("Hang in there, GUESS AGAIN :")
 
 
 
