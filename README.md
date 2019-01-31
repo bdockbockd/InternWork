@@ -11,7 +11,7 @@
 
 - Cmd : 
 ```
-python example.xml
+python Hangman.py
 ```
 
 
@@ -24,6 +24,10 @@ python example.xml
 - Cmd : 
 ```
 python tryConvertXML.py
+```
+and Then it will ask to fill the fileName you want to convert, fill weather if want to test default
+```
+Input File Name (doesn't have to include .xml) : weather
 ```
 
 
