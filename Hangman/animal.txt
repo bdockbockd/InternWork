@@ -1,0 +1,9 @@
+dog
+cat
+whale
+chimpancy
+dragon
+Leopard
+Octopus
+Piranha
+Crab
