@@ -2,34 +2,7 @@
 ### My name is Nonthanat Theeratanapartkul, or you can call me just B
 
 #### Email : bee.bee09_@hotmail.co.th , Tel : 097-040-4823
-
-### Method To run Weather XML : After going to source of folder weather
-
-- Terminal : 
-```
-```
-
-- Cmd : 
-```
-python Hangman.py
-```
-
-
-### Method To run HANGMAN GAME : After going to source of folder Hangman
-
-- Terminal :
-```
-```
-
-- Cmd : 
-```
-python tryConvertXML.py
-```
-and Then it will ask to fill the fileName you want to convert, fill weather if want to test default
-```
-Input File Name (doesn't have to include .xml) : weather
-```
-
+Method to run program is in readme.md in each folder 
 
 ## ข้อสอบมีทั้งหมด 2 ตอน
 
