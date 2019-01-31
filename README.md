@@ -6,13 +6,26 @@
 ### Method To run Weather XML : After going to source of folder weather
 
 - Terminal : 
-- Cmd : python example.xml
+```
+```
+
+- Cmd : 
+```
+python example.xml
+```
 
 
 ### Method To run HANGMAN GAME : After going to source of folder Hangman
 
 - Terminal :
-- Cmd : python tryConvertXML.py
+```
+```
+
+- Cmd : 
+```
+python tryConvertXML.py
+```
+
 
 ## ข้อสอบมีทั้งหมด 2 ตอน
 
