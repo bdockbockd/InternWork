@@ -3,9 +3,13 @@ Hangman in this program just like the normal game you've ever played but you can
 
 ## Method To run HANGMAN GAME : After going to source of folder Hangman
 
-- Terminal & Cmd
+- Terminal 
 ```
-python Hangman.py
+python hangmanForTerminal.py
+```
+- cmd 
+```
+python hangman.py
 ```
 
 ## Usage
@@ -16,7 +20,12 @@ random_number = random.randint(a,b)
 
 import os
 # If you want to clear shown text in screen
+
+#for cmd
 os.system('cls')
+#for terminal
+os.system('clear')
+
 ```
 
 ## Info
