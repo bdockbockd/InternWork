@@ -101,7 +101,7 @@ def LoopGame():
         else:
             life -= 1
             if(life == 0):
-                print("The word is {0}", currentWord)
+                print("The word is ", currentWord)
                 print("SAD YOU DIE")
                 print("YOUR POINT IS {0}, {1} words : {2}".format(SCORE,len(PASS_WORD),PASS_WORD))
                 break
