@@ -1,3 +1,18 @@
 # HangMan Game
-Hangman in this program just like the normal game you've ever played before but there is some kind of challenging in this game
-## Installation
+Hangman in this program just like the normal game you've ever played but you can bring this corde to develop in the future
+
+## Usage
+```python
+import random
+# If want to random number from a to b
+random_number = random.randint(a,b) 
+
+import os
+# If you want to clear shown text in screen
+os.system('cls')
+```
+
+## Info
+In this folder , there are two modes to play 
+* animal
+* hardAnimal
