@@ -1,4 +1,18 @@
 # The Internship Program Developer Exam 2019
+### My name is Nonthanat Theeratanapartkul, or you can call me just B
+
+#### Email : bee.bee09_@hotmail.co.th , Tel : 097-040-4823
+
+### Method To run Weather XML : After going to source of folder weather
+
+- Terminal : 
+- Cmd : python example.xml
+
+
+### Method To run HANGMAN GAME : After going to source of folder Hangman
+
+- Terminal :
+- Cmd : python tryConvertXML.py
 
 ## ข้อสอบมีทั้งหมด 2 ตอน
 
