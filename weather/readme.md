@@ -1,6 +1,20 @@
 # CONVERT XML TO JSON
 This file will convert weather XML from given issue
 
+## Method To run Weather XML : After going to source of folder weather 
+befor going to the step pls run this command
+```
+pip install xmltodict
+```
+- Terminal & Cmd : 
+```
+python tryConvertXML.py
+```
+and Then it will ask to fill the fileName you want to convert, fill weather if want to test default
+```
+Input File Name (doesn't have to include .xml) : weather
+```
+
 ## Usage
 ```python
 import xmltodict
