@@ -9,7 +9,6 @@ pip install xmltodict
 - Terminal & Cmd : 
 ```
 python tryConvertXML.py
-
 ```
 and Then it will ask to fill the fileName you want to convert, fill weather if want to test default
 ```
